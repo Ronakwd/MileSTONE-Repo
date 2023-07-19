@@ -1,0 +1,97 @@
+/* Making our web page responsive for smaller devices */
+@media screen and (max-width: 640px) {
+
+    /* navbar css starts */
+    nav .menu,
+    nav .profile{
+        display: block;
+    }
+    nav .menu:hover{
+        cursor: pointer;
+    }
+    nav .links,
+    nav button{
+        display: none;
+    }
+    nav .links img,
+    nav .profile img{
+        height: 6vh;
+    }
+    /* navbar css ends */
+
+    /* main section css starts */
+    main .content{
+        width: 100%;
+    }
+    main .content .buttons{
+        margin-top: 70vh;
+    }
+    main .content .buttons .btn1{
+        margin-right: 8vw;
+    }
+    main .content .buttons .btn{
+        font-size: 1.5rem;
+        padding: 5vh 8vw;
+    }
+    main .content .buttons img{
+        top: 150vh;
+        left: 70vw;
+    }
+    main .images{
+        width: 0px;
+    }
+    main .images .main-image img{
+        top: 73vh;
+        left: 37vw;
+    }
+    main .images .other-image > :first-child{
+        top: 73vh;
+        left: 30vw;
+    }
+    main .images .other-image img[alt="main-image-pattern"]{
+        top: 70vh;
+        left: 28vw;
+    }
+    main .images .other-image img[alt="green-arrow"]{
+        top: 123vh;
+        left: 10vw;
+    }
+
+    main .images .other-image img[alt="orange-arrow"]{
+        top: 70vh;
+        left: 23vw;
+    }
+    main .images .other-image > :last-child{
+        top: 110vh;
+        right: 10vw;
+    }
+    /* main section css ends */
+
+    /* footer css starts */
+    footer{
+        padding: 5vh 20vw;
+    }
+    footer,
+    footer .side-content{
+        flex-direction: column;
+    }
+    footer .content,
+    footer .side-content .sc1,
+    footer .side-content .sc2,
+    footer .side-content .sc3{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+    footer span{
+        width: 8vw;
+        height: 10vh;
+    }
+    footer span img{
+        height: 5vh;
+    }
+    footer p{
+        padding: 0px 12vw;
+    }
+    /* footer css ends */
+}
