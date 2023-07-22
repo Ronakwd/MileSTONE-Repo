@@ -1,1 +1,1 @@
-These are all the assests used in this project.
+These are all the assests which are used in this project.
