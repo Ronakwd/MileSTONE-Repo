@@ -1,1 +1,1 @@
-This is the dist folder of this project
+This is the dist folder of this project.
